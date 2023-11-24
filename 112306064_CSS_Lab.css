@@ -1,0 +1,27 @@
+body { 
+	color: brown; 
+	background-color: beige;
+	font-family: tahoma, sans-serif, arial;
+}
+
+h1 {
+	font-family: serif, arial, monospace;
+}
+
+.navbar {
+	position: relative;
+	top: 1em;
+	left: 1em;
+	width: 15em;
+}
+
+@media print {
+	body {
+		color: black;
+		background-color:white;
+	}
+
+	.navbar {
+		display: none;
+	}
+}
